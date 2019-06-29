@@ -1,0 +1,40 @@
+<html>
+<body>
+
+        <form method="post" id="thetest" action="" >
+
+          <div class="chapt_body">
+          <div id="results">
+          <p align="center" id="score" style="color: #2793e6;"></p>
+          <p align="center">
+          Scroll through the page to review your answers.  The correct answer is highlighted in <span style="background:#c5f4c8">&nbsp;green.&nbsp;</span> Your
+           incorrect answers (if any) are highlighted in <span style="background:#f1cccd">&nbsp;red.&nbsp;</span> If you'd like to take the test over again, click the reset button at the end of the test.
+           </p>
+          </div> 
+           
+          <div id="quiz"></div>
+          <script src="quizgeneratorfunction.js"></script>
+
+          <div id="btn_submit">
+          <p align="center">
+          <input value="SUBMIT"class="quizsubmit" onclick="scoreTest(); return false;" type="button">
+          </p>
+          </div>
+          <div id="btn_reset">
+          <p align="center">
+          <input value="RESET" class="quizsubmit" onclick="resetTest(); return false;" type="button">
+          </p>
+          </div>
+          </div>
+          </form> 
+          
+           
+         
+
+
+
+
+
+<script src="quizscript.js"></script>
+</body>
+</html>
