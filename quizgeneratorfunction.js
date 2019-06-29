@@ -2,20 +2,20 @@ var myQuestions = [
     {
         question: '<div><b><span class="vs_normaltext">01.	Rs.792 is to be divided among A,B,C in the ratio of 2:4:5. How much will C get more than B:-</span></b>',
         answers: {
-            a: '<div id="LANS.1.0"><label><input name="ANS.1" type="checkbox" value="A" class="chkbox">(A) 0</label></div>',
-            b: '<div id="LANS.1.1"><label><input name="ANS.1" type="checkbox" value="B" class="chkbox">(B) 0</label></div>',
-            c: '<div id="LANS.1.2"><label><input name="ANS.1" type="checkbox" value="C" class="chkbox">(C) 0</label></div>',
-            d: '<div id="LANS.1.3"><label><input name="ANS.1" type="checkbox" value="D" class="chkbox">(D) 1</label></div>',
+            a: '<div id="LANS.1.0"><label><input name="ANS.1" type="radio" value="A" class="chkbox">(A) 0</label></div>',
+            b: '<div id="LANS.1.1"><label><input name="ANS.1" type="radio" value="B" class="chkbox">(B) 0</label></div>',
+            c: '<div id="LANS.1.2"><label><input name="ANS.1" type="radio" value="C" class="chkbox">(C) 0</label></div>',
+            d: '<div id="LANS.1.3"><label><input name="ANS.1" type="radio" value="D" class="chkbox">(D) 1</label></div>',
             e: '<input name="Q" type="hidden" value="1"><input name="CANS.1" type="hidden" value="D"></div>'
         }   
     },
     {
         question: '<div><b><span class="vs_normaltext">02.  If income of A,B and C is in the ratio of 2:9:11 and income of B is Rs. 280 more than that of A, find the income of C.</span></b>',
         answers: {
-            a: '<div id="LANS.2.0"><label><input name="ANS.2" type="checkbox" value="A" class="chkbox">(A) 0</label></div>',
-            b: '<div id="LANS.2.1"><label><input name="ANS.2" type="checkbox" value="B" class="chkbox">(B) 0</label></div>',
-            c: '<div id="LANS.2.2"><label><input name="ANS.2" type="checkbox" value="C" class="chkbox">(C) 0</label></div>',
-            d: '<div id="LANS.2.3"><label><input name="ANS.2" type="checkbox" value="D" class="chkbox">(D) 1</label></div>',
+            a: '<div id="LANS.2.0"><label><input name="ANS.2" type="radio" value="A" class="chkbox">(A) 0</label></div>',
+            b: '<div id="LANS.2.1"><label><input name="ANS.2" type="radio" value="B" class="chkbox">(B) 0</label></div>',
+            c: '<div id="LANS.2.2"><label><input name="ANS.2" type="radio" value="C" class="chkbox">(C) 0</label></div>',
+            d: '<div id="LANS.2.3"><label><input name="ANS.2" type="radio" value="D" class="chkbox">(D) 1</label></div>',
             e: '<input name="Q" type="hidden" value="2"><input name="CANS.2" type="hidden" value="D"></div>'
         }   
     }
